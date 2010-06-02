@@ -5,16 +5,17 @@
 \docType{package}
 \encoding{UTF-8}
 \title{
-Dicionários para leitura das pesquisas do IBGE
+  Dictionaries for reading survey microdata from IBGE
 }
 
 \description{
-Este pacote contem dicionários de dados para a leitura
-dos microdados das seguintes pesquisas do IBGE: PNAD(1983, 1988,
-1993-2007), PME(2002-2009) e POF(1987/1988, 1995/1996, 2002/2003).
-A leitura pode ser feita utilizando-se a função le.pesquisa do pacote IBGEPesq.
+  This package contains dictionaries for reading the following IBGE
+  surveys: PNAD(1983, 1988, 1993-2007), PME(2002-2009) and
+  POF(1987/1988, 1995/1996, 2002/2003).
+  The data can be read using the function le.pesquisa from package
+  IBGEPesq.
 }
-
+  
 \details{
 \tabular{ll}{
 Package: \tab dicionariosIBGE\cr
@@ -27,21 +28,21 @@ LazyLoad: \tab yes\cr
 
 }
 \author{
-Erick Fonseca <erick.fonseca@fgv.br>
-
+  Erick Fonseca <erick.fonseca@fgv.br>,
+  Alexandre Rademaker <alexandre.rademaker@fgv.br>
 }
 \references{
-  Pesquisas PNAD, PME e POF do IBGE
+  Surveys PNAD, PME and POF from IBGE
 }
 
 \keyword{ package }
 
 
 \examples{
-## exibe os dicionarios disponiveis no pacote
+## show all available dictionaries in the package
 data(package = "dicionariosIBGE")
 
-## carrega os dicionários da PNAD de 1993
+## load dictionaries for PNAD 1993
 data(dicPNAD1993)
 ls()
 

@@ -38,20 +38,22 @@
 \alias{dic14pof2002.2003}
 
 \encoding{UTF-8}
-\title{Dicionários de Dados da POF}
+\title{Data Dictionaries for POF}
 \description{
-  Um dicionário de dados para cada tipo de registro das POF's de 1987/1988, 1995/1996 e 2002/2003.
+  One data dictionary for each record type from POF surveys of
+  1987/1988, 1995/1996 and 2002/2003.
 }
 \format{
-  Cada dicionário é um data frame onde cada linha corresponde a uma
-  variável, e que tem as seguintes colunas:
+  Each dictionary is a data frame with one line for each survey variable,
+  and it has the following columns:  
+  
   \tabular{lll}{
-    inicio \tab numeric \tab Posição do primeiro caracter
-    do campo \cr
-    cod \tab character \tab Código da variável \cr
-    tamanho \tab numeric \tab Tamanho do campo \cr
-    desc \tab character \tab Descrição resumida do campo
+    inicio \tab numeric \tab Position of the value's first character in
+    the data file \cr
+    cod \tab character \tab Variable code \cr
+    tamanho \tab numeric \tab Field size \cr
+    desc \tab character \tab Short description
   }
 }
-\source{Documentação da POF fornecida no CD de dados do IBGE}
+\source{POF documentation available in the CD made by IBGE}
 \keyword{datasets}

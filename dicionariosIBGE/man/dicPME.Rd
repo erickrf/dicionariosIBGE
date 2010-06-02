@@ -3,20 +3,21 @@
 \alias{dicPME}
 
 \encoding{UTF-8}
-\title{Dicionários de Dados da PME}
+\title{Data Dictionaries for PME}
 \description{
-  Um dicionário de dados para as pesquisas PME de 2002 a 2009.
+  A data dictionary for the survey PME from 2002 to 2009.
 }
 \format{
-  O dicionário é um data frame onde cada linha corresponde a uma
-  variável, e que tem as seguintes colunas:
+  The dictionary is a data frame with one line for each survey variable,
+  and it has the following columns:  
+
   \tabular{lll}{
-    inicio \tab numeric \tab Posição do primeiro caracter
-    do campo \cr
-    cod \tab character \tab Código da variável \cr
-    tamanho \tab numeric \tab Tamanho do campo \cr
-    desc \tab character \tab Descrição resumida do campo
+    inicio \tab numeric \tab Position of the value's first character in
+    the data file \cr
+    cod \tab character \tab Variable code \cr
+    tamanho \tab numeric \tab Field size \cr
+    desc \tab character \tab Short description
   }
 }
-\source{Documentação da PME fornecida no CD de dados do IBGE}
+\source{PME documentation available in the CD's made by IBGE}
 \keyword{datasets}

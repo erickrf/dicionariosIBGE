@@ -52,21 +52,22 @@
 \alias{dicpes2007}
 
 \encoding{UTF-8}
-\title{Dicionários de Dados da PNAD}
+\title{Data Dictionaries for PNAD}
 \description{
-  Um dicionário de dados para os registros de pessoas e um para os de
-  domicílios, para as PNADs de 1983, 1988 e de 1993 a 2007.
+  One data dictionary for people's records and one for homes's records,
+  for each PNAD of the years 1983, 1988 and from 1993 to 2007.
 }
 \format{
-  Cada dicionário é um data frame onde cada linha corresponde a uma
-  variável, e que tem as seguintes colunas:
+  Each dictionary is a data frame with one line for each survey variable,
+  and it has the following columns:  
+  
   \tabular{lll}{
-    inicio \tab numeric \tab Posição do primeiro caracter
-    do campo \cr
-    cod \tab character \tab Código da variável \cr
-    tamanho \tab numeric \tab Tamanho do campo \cr
-    desc \tab character \tab Descrição resumida do campo
+    inicio \tab numeric \tab Position of the value's first character in
+    the data file \cr
+    cod \tab character \tab Variable code \cr
+    tamanho \tab numeric \tab Field size \cr
+    desc \tab character \tab Short description
   }
 }
-\source{Documentação da PNAD fornecida no CD de dados do IBGE}
+\source{PNAD documentation available in the CD's made by IBGE}
 \keyword{datasets}

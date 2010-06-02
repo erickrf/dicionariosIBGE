@@ -1,0 +1,18 @@
+Dicionarios de dados para leitura no R das pesquisas PNAD, PME e POF do IBGE.
+
+Para verificar a validade do pacote, usar:
+
+R CMD check [DIRETORIO]
+
+Para gerar um .tar.gz instalavel:
+
+R CMD build [DIRETORIO]
+
+
+O arquivo .tar.gz pode ser instalado com o comando R CMD INSTALL
+[ARQUIVO.tar.gz] ou dentro do R com a funcao install.packages().
+
+No Windows, e necessario passar o parametro type="source" para a
+funcao. Isso requer que alguns programas estejam no path do
+sistema (vide Rtools).
+

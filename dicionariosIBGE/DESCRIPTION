@@ -1,0 +1,13 @@
+Package: dicionariosIBGE
+Type: Package
+Title: Dicionarios para leitura dos dados de pesquisas do IBGE
+Version: 1.0
+Date: 2010-05-14
+Author: Erick Fonseca <erick.fonseca@fgv.br>
+Maintainer: Erick Fonseca <erick.fonseca@fgv.br>
+Description: Este pacote contem dicionarios de dados para a leitura
+	dos microdados das pesquisas PNAD, PME e POF do IBGE.
+License: GNU Public License
+Suggests: IBGEPesq
+LazyLoad: yes
+Packaged: 2010-05-14 20:42:13 UTC

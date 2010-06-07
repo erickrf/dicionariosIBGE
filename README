@@ -8,11 +8,20 @@ Para gerar um .tar.gz instalavel:
 
 R CMD build [DIRETORIO]
 
+Instalando o pacote:
 
-O arquivo .tar.gz pode ser instalado com o comando R CMD INSTALL
-[ARQUIVO.tar.gz] ou dentro do R com a funcao install.packages().
+R CMD INSTALL pkg.tar.gz
 
-No Windows, e necessario passar o parametro type="source" para a
-funcao. Isso requer que alguns programas estejam no path do
-sistema (vide Rtools).
+Ou, no R:
 
+install.packages("pkg.tar.gz", repos=NULL)
+
+
+No Windows, para instalar o pacote .tar.gz e necessario passar o
+parametro type="source" para a funcao. Isso requer que alguns
+programas estejam no path do sistema (vide Rtools).
+
+Tambem e possivel no Windows instalar a partir de um arquivo .zip com
+o conteudo do diretorio apos instalado (pacote pre-compilado). Neste
+caso, nao e necessario nenhum programa no path e nem o parametro
+type="source".

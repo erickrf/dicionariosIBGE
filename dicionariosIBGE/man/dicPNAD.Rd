@@ -54,7 +54,7 @@
 \encoding{UTF-8}
 \title{Data Dictionaries for PNAD}
 \description{
-  One data dictionary for people's records and one for homes's records,
+  One data dictionary for people records and one for house records,
   for each PNAD of the years 1983, 1988 and from 1993 to 2007.
 }
 \format{

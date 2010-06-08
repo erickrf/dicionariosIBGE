@@ -1,4 +1,6 @@
 Dicionarios de dados para leitura no R das pesquisas PNAD, PME e POF do IBGE.
+Link para o pacote no site do CRAN: 
+http://cran.r-project.org/web/packages/dicionariosIBGE/index.html
 
 Para verificar a validade do pacote, usar:
 

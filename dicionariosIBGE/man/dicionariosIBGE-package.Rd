@@ -11,7 +11,7 @@
 \description{
   This package contains dictionaries for reading the following IBGE
   surveys: PNAD(1983, 1988, 1993-2007), PME(2002-2009) and
-  POF(1987/1988, 1995/1996, 2002/2003).
+  POF(1987/1988, 1995/1996, 2002/2003, 2008/2009).
   The data can be read using the function le.pesquisa from package
   IBGEPesq.
 }
@@ -20,7 +20,7 @@
 \tabular{ll}{
 Package: \tab dicionariosIBGE\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
+Version: \tab 1.1\cr
 Date: \tab 2010-05-14\cr
 License: \tab GNU Public Licence\cr
 LazyLoad: \tab yes\cr

@@ -4,6 +4,7 @@
 \alias{dicPOF1987.1988}
 \alias{dicPOF1995.1996}
 \alias{dicPOF2002.2003}
+\alias{dicPOF2008.2009}
 
 \alias{dic1pof1987.1988}
 \alias{dic2pof1987.1988}
@@ -36,6 +37,21 @@
 \alias{dic12pof2002.2003}
 \alias{dic13pof2002.2003}
 \alias{dic14pof2002.2003}
+\alias{dic1pof2008.2009}
+\alias{dic2pof2008.2009}
+\alias{dic3pof2008.2009}
+\alias{dic4pof2008.2009}
+\alias{dic5pof2008.2009}
+\alias{dic6pof2008.2009}
+\alias{dic7pof2008.2009}
+\alias{dic8pof2008.2009}
+\alias{dic9pof2008.2009}
+\alias{dic10pof2008.2009}
+\alias{dic11pof2008.2009}
+\alias{dic12pof2008.2009}
+\alias{dic13pof2008.2009}
+\alias{dic14pof2008.2009}
+\alias{dic15pof2008.2009}
 
 \encoding{UTF-8}
 \title{Data Dictionaries for POF}

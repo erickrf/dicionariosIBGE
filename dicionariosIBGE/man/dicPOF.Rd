@@ -57,7 +57,7 @@
 \title{Data Dictionaries for POF}
 \description{
   One data dictionary for each record type from POF surveys of
-  1987/1988, 1995/1996 and 2002/2003.
+  1987/1988, 1995/1996, 2002/2003 and 2008/2009.
 }
 \format{
   Each dictionary is a data frame with one line for each survey variable,

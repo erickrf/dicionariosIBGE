@@ -2,6 +2,35 @@ Dicionarios de dados para leitura no R das pesquisas PNAD, PME e POF do IBGE.
 Link para o pacote no site do CRAN: 
 http://cran.r-project.org/web/packages/dicionariosIBGE/index.html
 
+
+
+USANDO O PACOTE:
+================
+
+Para instalar automaticamente a versao mais recente disponivel no
+CRAN, use o seguinte comando no R:
+
+install.packages("dicionariosIBGE")
+
+Para carregar o pacote:
+
+library(dicionariosIBGE)
+
+Listando os dicionarios disponiveis no pacote:
+
+data(package = "dicionariosIBGE")
+
+Para carregar os dicionarios de uma pesquisa, utilize o comando data e
+nome do dataset da pesquisa. Este nome pode ser visto com o comando
+anterior. Por exemplo:
+
+data(dicPNAD1993)
+
+
+
+GERANDO E VERIFICANDO O PACOTE A PARTIR DO CODIGO FONTE:
+========================================================
+
 Para verificar a validade do pacote, usar:
 
 R CMD check [DIRETORIO]

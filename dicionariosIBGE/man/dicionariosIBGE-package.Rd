@@ -1,5 +1,5 @@
 \name{dicionariosIBGE-package}
-\Rdversion{1.1}
+\Rdversion{1.1.1}
 \alias{dicionariosIBGE-package}
 \alias{dicionariosIBGE}
 \docType{package}
@@ -20,7 +20,7 @@
 \tabular{ll}{
 Package: \tab dicionariosIBGE\cr
 Type: \tab Package\cr
-Version: \tab 1.1\cr
+Version: \tab 1.1.1\cr
 Date: \tab 2010-05-14\cr
 License: \tab GNU Public Licence\cr
 LazyLoad: \tab yes\cr

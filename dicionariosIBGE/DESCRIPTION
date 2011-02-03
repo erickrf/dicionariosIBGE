@@ -1,11 +1,11 @@
 Package: dicionariosIBGE
 Type: Package
 Title: Dictionaries for reading survey microdata from IBGE
-Version: 1.1
+Version: 1.1.1
 Date: 2010-05-14
-Author: Erick Fonseca <erick.fonseca@fgv.br>, Alexandre
+Author: Erick Fonseca <erickrfonseca@gmail.com>, Alexandre
         Rademaker<alexandre.rademaker@fgv.br>
-Maintainer: Erick Fonseca <erick.fonseca@fgv.br>
+Maintainer: Erick Fonseca <erickrfonseca@gmail.com>
 Description: This package contains dictionaries for reading microdata
         from IBGE (Brazilian Institute of Geography and Statistics)
         surveys PNAD, PME and POF.
